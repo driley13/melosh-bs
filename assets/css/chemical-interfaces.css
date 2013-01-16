@@ -1,0 +1,22 @@
+.content-margins {
+  margin-top: 85px;
+}
+.img-margins {
+  margin-top: -50px;
+}
+@media (max-width: 979px) {
+  .content-margins {
+    margin-top: 60px;
+  }
+  .img-margins {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 767px) {
+  .content-margins {
+    margin-top: 60px;
+  }
+  .img-margins {
+    margin-top: 20px;
+  }
+}

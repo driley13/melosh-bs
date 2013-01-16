@@ -1,0 +1,22 @@
+/* Toolbox
+-------------------------------------------------- */
+/* fun effects */
+.dropshadow {
+  -moz-box-shadow: 3px 3px 4px #999;
+  /* Firefox */
+
+  -webkit-box-shadow: 3px 3px 4px #999;
+  /* Safari/Chrome */
+
+  box-shadow: 3px 3px 4px #999;
+  /* Opera and other CSS3 supporting browsers */
+
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";*/
+  /* IE 8 */
+
+  /* : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');*/
+  /* IE 5.5 - 7 */
+}
+.outline {
+  border: 1px solid silver;
+}

@@ -1,0 +1,76 @@
+.content-margins {
+  margin-top: 100px;
+}
+.image1 {
+  float: right;
+  width: 50%;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.image2 {
+  margin-top: 10px;
+  width: 45%;
+}
+.researchers {
+  width: 40%;
+}
+@media (max-width: 1200px) {
+  .content-margins {
+    margin-top: 80px;
+  }
+  .image1 {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .image2 {
+    margin-top: -30px;
+    width: 50%;
+  }
+  .researchers {
+    width: 40%;
+  }
+}
+@media (max-width: 979px) {
+  .content-margins {
+    margin-top: 50px;
+  }
+  .image1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 55%;
+    padding-bottom: 100px;
+  }
+  .image2 {
+    margin-top: -80px;
+    float: right;
+    width: 55%;
+    margin-left: 20px;
+  }
+  .researchers {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .content-margins {
+    margin-top: 60px;
+  }
+  .image1 {
+    margin-top: 0;
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .image2 {
+    margin-top: 30px;
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .researchers {
+    width: 100%;
+  }
+}

@@ -1,0 +1,398 @@
+	    
+	/*Variable list*/
+	@coloredLetters: #E7D19A; /* Stanford tan */
+  @navBackground: #820000; /* Stanford cardinal */
+	
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 5px 8px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 5px 8px rgba(0,0,0,.25);
+              box-shadow: 0 5px 8px rgba(0,0,0,.25);
+              background: @navBackground;
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      line-height: 1.2;
+      letter-spacing: 1.2px;
+      padding: 6px 15px 6px 30px; /* Increase vertical padding to match navbar links */
+      font-size: 18px;
+      /*font-weight: bold;*/
+      text-shadow: 0 0 0 rgba(0,0,0,.5);
+      color: @coloredLetters;
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+		padding: 17px 15px;
+		letter-spacing: 1.4px;
+		color: @coloredLetters;
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+		font-size: 16px;
+		font-weight: 300;
+    }
+	
+	/*Make links appear white when you hover over them*/
+	.navbar .nav > li > a:focus,
+	.navbar .nav > li > a:hover {
+	  color: #ffffff;
+	}
+	
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      background-color: @navBackground;
+      margin-top: 12px;
+      margin-right: 30px;
+    }
+    
+    /*Eliminate padding so active box extends to edges and move text in so it's not off the screen*/
+    .navbar-inner {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    
+    /* Change color of activate link background and text on navbar, as well as shadowing associated with being active */
+	.navbar .nav .active > a,
+	.navbar .nav .active > a:hover,
+	.navbar .nav .active > a:focus {
+	  color: @coloredLetters;
+	  background-color: @navBackground;
+	  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.25);
+	     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.25);
+	          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.25);
+	}
+	
+	
+	.navbar .btn-navbar .icon-bar {
+	  background-color: @coloredLetters;
+	}
+	
+	/*Custom button coloring from http://charliepark.org/bootstrap_buttons/*/
+	.navbar .btn-navbar:hover,
+	.navbar .btn-navbar {
+	  background-color: hsl(0, 66%, 25%);
+	  background-repeat: repeat-x;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="@navBackground", endColorstr="#691515");
+	  background-image: -khtml-gradient(linear, left top, left bottom, from(@navBackground), to(#691515));
+	  background-image: -moz-linear-gradient(top, @navBackground, #691515);
+	  background-image: -ms-linear-gradient(top, @navBackground, #691515);
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @navBackground), color-stop(100%, #691515));
+	  background-image: -webkit-linear-gradient(top, @navBackground, #691515);
+	  background-image: -o-linear-gradient(top, @navBackground, #691515);
+	  background-image: linear-gradient(@navBackground, #691515);
+	  border-color: #691515 #691515 hsl(0, 66%, 19.5%);
+	  color: #fff;
+	  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.36);
+	  -webkit-font-smoothing: antialiased;
+	   }
+	   
+	   /*Change coloring when the dropdown menu is active*/
+	   .navbar .nav li.dropdown.open > .dropdown-toggle,
+	   .navbar .nav li.dropdown.active > .dropdown-toggle,
+	   .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+	     color: #ffffff;
+	     background-color: @navBackground;
+	   }
+	   
+	   /*Change dropdown menu background color to cardinal*/
+	   .dropdown-menu {
+	     background-color: @navBackground;
+	   }
+	   
+	   /*Change drop-down menu text to tan*/
+	   .dropdown-menu li > a {
+	     color: @coloredLetters;
+	     padding: 8px 20px;
+       letter-spacing: 1px;
+	   }
+	    
+	   /*Change dropdown menu carrot color*/
+	   .navbar .nav > li > .dropdown-menu:after {
+	     border-bottom: 6px solid @navBackground;
+	   }
+	   
+	   /*Change dropdown menu link carrot color*/
+	   .navbar .nav li.dropdown > .dropdown-toggle .caret {
+	     border-top-color: @coloredLetters;
+	     border-bottom-color: @coloredLetters;
+	   }
+	   
+	   /*Change carrot hover color*/
+	   .navbar .nav li.dropdown > a:hover .caret {
+	     border-top-color: #ffffff;
+	     border-bottom-color: #ffffff;
+	   }
+	   /*Change carrot color when menu is open*/
+	   .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+	   .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+	   .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+	     border-top-color: #ffffff;
+	     border-bottom-color: #ffffff;
+	   }
+	   
+	   
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 10px;
+      max-width: 1500px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+/*    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }*/
+    
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+    }
+    
+    /*Sets carousel height.  Fancy trickery here.  This makes it so the padding between the top and the research content changes with the width of the browser*/
+    .carousel .item {
+      height: 0;
+      padding-bottom: 36.66%;
+      max-width: 100%;
+/*      margin-left:auto;
+      margin-right:auto;*/
+    }
+    
+    /*.carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }*/
+    
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+	/*Here we're going to set the position of the text relative to what's happening to the width of the banner*/
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding-left: 20px;
+      padding-top: 150px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* research CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .research .span4 {
+      text-align: center;
+    }
+    .research h2 {
+      font-weight:normal; 
+    }
+    .research .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .research .btn{
+      margin-bottom: 30px;
+      margin-top: -10px;
+      width: 84px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2.pete-lysis-label{
+        font-size: 26px;
+    }
+
+    .research .row{
+      margin-bottom: 20px;
+    }
+
+     @media (max-width: 1200px) {
+        h2.pete-lysis-label{
+          font-size: 20px;
+        }
+     }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+	   
+	   /* Offset the responsive button for proper vertical alignment */
+	   .navbar .btn-navbar {
+	     background-color: @navBackground;
+	     margin-top: 12px;
+	     margin-right: 20px;
+	   }
+	   
+	   /* Adjust left padding to position .brand properly */
+	   .navbar .brand {
+	     padding-left: 18px; 
+	   }
+	   
+	   /*When hovering in collapsed navbar, make blue*/
+	   .navbar .nav-collapse .nav > li > a:hover,
+	   .navbar .nav-collapse .dropdown-menu a:hover {
+	     color: #ffffff;
+	     text-decoration: none;
+	     background-color: #0081c2;
+	     background-image: none;
+	     filter: none;
+	   }
+	   
+	   /*Make font in collapsed navbar match full navbar.  Set spacing of menu items when collapsed*/
+	   .nav-collapse .nav > li > a,
+	   .nav-collapse .dropdown-menu a {
+	   	color: @coloredLetters;
+	   	font-weight: 300;
+	   	letter-spacing: 1.2px;
+	   	padding: 10px 0 10px 29px; 
+	   	font-size: 16px;
+	   }
+	
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+        
+      }
+      /*this is stupidly where the navbar is stuck to the top*/
+      .navbar-inner {
+        margin: -20px 0;
+      }
+
+      /*.carousel .item {
+        padding-bottom: 36.6%;
+      }*/
+      /*.carousel img {
+        width: auto;
+        height: 400px;
+      }*/
+      
+      .carousel-caption {
+        max-width: 400px;
+        padding-top: 100px;
+      }
+    
+    .carousel {
+      margin-bottom: 10px;
+    }
+    h2.pete-label{
+      font-size: 24px;
+    }
+    h2.pete-lysis-label{
+      font-size: 16px;
+    }
+  }
+
+    @media (max-width: 767px) {
+
+
+	.navbar .btn-navbar {
+	  background-color: @navBackground;
+	  margin-top: 12px;
+	  margin-right: 32px;
+	}
+
+	  .navbar .brand {
+	    padding: 6px 15px 6px 36px; /* Increase vertical padding to match navbar links */
+	  }  
+
+      .navbar-inner {
+      margin: -20px;
+      border-radius: 0;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+        margin-bottom: 10px;
+      }
+      .carousel .container {
+
+      }
+     .carousel .item {
+        padding-bottom: 310px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .research .span4 + .span4 {
+        margin-top: 40px;
+      }
+          h2.pete-lysis-label{
+      font-size: 20px;
+    }
+
+    }

@@ -1,0 +1,49 @@
+.content-margins {
+  margin-top: 100px;
+}
+.image1-margin {
+  float: right;
+  width: 60%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: -110px;
+}
+.researchers {
+  width: 40%;
+}
+@media (max-width: 1200px) {
+  .content-margins {
+    margin-top: 80px;
+  }
+  .image1-margin {
+    margin-top: -90px;
+  }
+  .researchers {
+    width: 40%;
+  }
+}
+@media (max-width: 979px) {
+  .content-margins {
+    margin-top: 50px;
+  }
+  .image1-margin {
+    margin-top: -20px;
+  }
+  .researchers {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .content-margins {
+    margin-top: 60px;
+  }
+  .image1-margin {
+    float: none;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+  .researchers {
+    width: 100%;
+  }
+}
