@@ -3,26 +3,6 @@
 	{
 		"selected_items":
 		[
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"padd",
-				"padding-bottom"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"bord-",
-				"border-radius"
-			]
 		]
 	},
 	"buffers":
@@ -31,55 +11,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 387.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"lint",
-				"SublimeLinter: Disable Linting"
-			],
-			[
-				"LING",
-				"SublimeLinter: Disable Linting"
-			],
-			[
-				"ling",
-				"SublimeLinter: Background Linting"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"packa",
-				"Package Control: List Packages"
-			],
-			[
-				"package",
-				"Package Control: Discover Packages"
-			],
-			[
-				"pack",
-				"Preferences: Browse Packages"
-			],
-			[
-				"",
-				"Toggle Comment"
-			]
 		],
-		"width": 593.0
+		"width": 0.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -92,63 +32,16 @@
 	},
 	"file_history":
 	[
-		"/Users/driley13/Dropbox/Websites/group-website-bootstrap/assets/kit/index.kit",
-		"/Users/driley13/Dropbox/Websites/group-website-bootstrap/index.html",
-		"/Users/driley13/Dropbox/Websites/group-website-bootstrap/frontpage-neur-int.pxm",
-		"/Users/driley13/Desktop/group-website-bootstrap/assets/kit/index.kit",
-		"/Users/driley13/Desktop/group-website-bootstrap/assets/less/index.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/head.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/navbar.kit",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/clathrin.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/clathrin.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/index.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/index.less",
-		"/Users/driley13/Downloads/index.html",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/diamondoids.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/diamondoids.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/neural-interfaces.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/neural-interfaces.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/footer.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/pete-lysis.kit",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/README.md",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/changelog.txt",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/SublimeTidyHTML/TidyHTML.sublime-settings",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/plasmonics.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/lipid-interfaces.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/pete.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/pete.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/lipid-interfaces.less",
-		"/Users/driley13/Desktop/Group website bootstrap/index.html",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/publications.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/publications.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/kit/chemical-interfaces.kit",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/toolbox.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/css/toolbox.css",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/plasmonics.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/chemical-interfaces.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/less/pete-lysis.less",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/css/pete-lysis.css",
-		"/Users/driley13/Desktop/Group website bootstrap/pete-lysis.html",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/css/index.css",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/css/plasmonics.css",
-		"/Users/driley13/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/driley13/Desktop/Group website bootstrap/assets/css/import-bootstrap-responsive.css",
-		"/Users/driley13/Downloads/twitter-bootstrap-558bc52 2/README.md"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 0.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
-			"/Users/driley13/Desktop/newpage"
 		]
 	},
 	"find_state":
@@ -156,35 +49,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"row",
-			"image1-margin",
-			"image2-margin",
-			"image1-margin",
-			"1200",
-			"feature",
-			"row",
-			"pete",
-			"center",
-			"carousel",
-			"research",
-			"font",
-			"research",
-			"marketing",
-			"research",
-			"researc",
-			"marketing",
-			"css",
-			"less",
-			"css",
-			"blank",
-			"cover-margins",
-			"media",
-			"emission",
-			"text-shadow",
-			"#860000",
-			"860000",
-			"860000\n\n\n860000",
-			"860000\n\n\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -192,12 +56,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"image1",
-			"image2",
-			"image1",
-			"research",
-			"journal-covers",
-			"@navBackground"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -207,6 +65,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -230,11 +93,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -246,7 +116,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 64.0
+		"height": 0.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -254,25 +124,21 @@
 		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"plas",
-				"assets/css/plasmonics.css"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 325.0,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }
