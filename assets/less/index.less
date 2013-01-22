@@ -2,6 +2,7 @@
 	/*Variable list*/
 	@coloredLetters: #E7D19A; /* Stanford tan */
   @navBackground: #820000; /* Stanford cardinal */
+  @bootstrapBlue: #0088cc;
 	
     /* GLOBAL STYLES
     -------------------------------------------------- */
@@ -57,10 +58,11 @@
 		font-weight: 300;
     }
 	
-	/*Make links appear white when you hover over them*/
+	/*Make links appear white when you hover over them and remove blue outline*/
 	.navbar .nav > li > a:focus,
 	.navbar .nav > li > a:hover {
 	  color: #ffffff;
+    outline-color: @navBackground;
 	}
 	
 
@@ -255,7 +257,7 @@
     text-decoration: none;
     }
     .research a h2:hover{
-    color: #0088cc;  
+    color: @bootstrapBlue;  
     }
 
     .research .span4 p {
@@ -304,7 +306,7 @@
 	     padding-left: 18px; 
 	   }
 	   
-	   /*When hovering in collapsed navbar, make blue*/
+	   /*When hovering in collapsed navbar, make cardinal red*/
 	   .navbar .nav-collapse .nav > li > a:hover,
 	   .navbar .nav-collapse .dropdown-menu a:hover {
 	     color: #ffffff;
@@ -313,6 +315,11 @@
 	     background-image: none;
 	     filter: none;
 	   }
+
+         .navbar .nav-collapse .nav > li > a:active,
+     .navbar .nav-collapse .dropdown-menu a:active {
+      background-color: @bootstrapBlue;
+     }
 	   
 	   /*Make font in collapsed navbar match full navbar.  Set spacing of menu items when collapsed*/
 	   .nav-collapse .nav > li > a,

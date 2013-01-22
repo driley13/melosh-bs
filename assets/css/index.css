@@ -52,10 +52,11 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
-/*Make links appear white when you hover over them*/
+/*Make links appear white when you hover over them and remove blue outline*/
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   color: #ffffff;
+  outline-color: #820000;
 }
 /* Offset the responsive button for proper vertical alignment */
 .navbar .btn-navbar {
@@ -258,7 +259,7 @@ h2.pete-lysis-label {
   .navbar .brand {
     padding-left: 18px;
   }
-  /*When hovering in collapsed navbar, make blue*/
+  /*When hovering in collapsed navbar, make cardinal red*/
   .navbar .nav-collapse .nav > li > a:hover,
   .navbar .nav-collapse .dropdown-menu a:hover {
     color: #ffffff;
@@ -266,6 +267,10 @@ h2.pete-lysis-label {
     background-color: #820000;
     background-image: none;
     filter: none;
+  }
+  .navbar .nav-collapse .nav > li > a:active,
+  .navbar .nav-collapse .dropdown-menu a:active {
+    background-color: #0088cc;
   }
   /*Make font in collapsed navbar match full navbar.  Set spacing of menu items when collapsed*/
   .nav-collapse .nav > li > a,
