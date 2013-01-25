@@ -8,7 +8,7 @@
   margin-left: 0px;
 }
 .container table {
-  width: 80%;
+  width: 100%;
 }
 @media (max-width: 1200px) {
   .content-margins {
@@ -22,9 +22,6 @@
   .content-margins {
     margin-top: 60px;
   }
-  .image1 {
-    width: 48%;
-  }
   .container table {
     width: 100%;
   }
@@ -32,5 +29,8 @@
 @media (max-width: 767px) {
   .content-margins {
     margin-top: 60px;
+  }
+  .container table {
+    width: 100%;
   }
 }
