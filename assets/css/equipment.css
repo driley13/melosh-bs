@@ -1,0 +1,36 @@
+.content-margins {
+  margin-top: 80px;
+}
+.image1 {
+  float: right;
+  width: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.container table {
+  width: 80%;
+}
+@media (max-width: 1200px) {
+  .content-margins {
+    margin-top: 90px;
+  }
+  .image1 {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 979px) {
+  .content-margins {
+    margin-top: 60px;
+  }
+  .image1 {
+    width: 48%;
+  }
+  .container table {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .content-margins {
+    margin-top: 60px;
+  }
+}
