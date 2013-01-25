@@ -3,23 +3,123 @@
 	{
 		"selected_items":
 		[
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"hover",
+				"hover"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backgro",
+				"background-color"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "assets/kit/index.kit",
+			"settings":
+			{
+				"buffer_size": 5633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/kit/pete.kit",
+			"settings":
+			{
+				"buffer_size": 2144,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/less/pete.less",
+			"settings":
+			{
+				"buffer_size": 1043,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/kit/clathrin.kit",
+			"settings":
+			{
+				"buffer_size": 3874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/kit/nick.kit",
+			"settings":
+			{
+				"buffer_size": 5835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/less/clathrin.less",
+			"settings":
+			{
+				"buffer_size": 809,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/kit/post-docs.kit",
+			"settings":
+			{
+				"buffer_size": 1835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/kit/diamondoids.kit",
+			"settings":
+			{
+				"buffer_size": 2512,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
 		],
-		"width": 0.0
+		"width": 575.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -32,16 +132,63 @@
 	},
 	"file_history":
 	[
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/grad-students.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/staff-scientists.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/lipid-interfaces.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/footer.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/navbar.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/equipment.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/equipment.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/grad-students.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/neural-interfaces.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/clathrin.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/diamondoids.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/post-docs.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/clathrin.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/plasmonics.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/chemical-interfaces.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/pete-lysis.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/grad-students-scrolling-nav.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/nick.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/alumni.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/collaborators.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/collaborators.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/alumni.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/staff-scientists.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/post-docs.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/javascript.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/plasmonics.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/neural-interfaces.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/chemical-interfaces.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/lipid-interfaces.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/pete-lysis.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/index.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/index.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/hover-test.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/css/hover-test.css",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/nick.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/less/docs.less",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/js/bootstrap-affix.js",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/js/application.js",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/head-test.kit",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/dan/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/head.kit",
+		"/Users/dan/Dropbox/Websites/melosh-bs/index.html",
+		"/Users/dan/Dropbox/Websites/melosh-bs/assets/kit/index.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -49,6 +196,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&#64;",
+			"&#64",
+			"grad_students",
+			"body",
+			"head",
+			"body",
+			"@",
+			"active",
+			"hover",
+			"0088cc",
+			"0081c2",
+			"research",
+			"h2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -56,6 +216,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			" AT ",
+			"grad-students"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -68,11 +230,221 @@
 		{
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "assets/kit/index.kit",
+					"settings":
+					{
+						"buffer_size": 5633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1069,
+								1069
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/kit/pete.kit",
+					"settings":
+					{
+						"buffer_size": 2144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1771,
+								1757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 318.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/less/pete.less",
+					"settings":
+					{
+						"buffer_size": 1043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 651.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/kit/clathrin.kit",
+					"settings":
+					{
+						"buffer_size": 3874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1392,
+								1326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 426.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/kit/nick.kit",
+					"settings":
+					{
+						"buffer_size": 5835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 347.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/less/clathrin.less",
+					"settings":
+					{
+						"buffer_size": 809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/kit/post-docs.kit",
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/kit/diamondoids.kit",
+					"settings":
+					{
+						"buffer_size": 2512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2155,
+								2085
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -93,18 +465,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -116,7 +481,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -129,16 +494,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 224.0,
 	"status_bar_visible": true
 }
