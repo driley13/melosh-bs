@@ -98,6 +98,14 @@
 				"buffer_size": 2512,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "assets/kit/grad-students.kit",
+			"settings":
+			{
+				"buffer_size": 3971,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -228,6 +236,7 @@
 	"groups":
 	[
 		{
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -441,6 +450,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/kit/grad-students.kit",
+					"settings":
+					{
+						"buffer_size": 3971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3406,
+								3406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1055.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
